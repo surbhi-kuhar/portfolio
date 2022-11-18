@@ -1,0 +1,719 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.body-div{
+    background-color:#1D1D1D;
+    width:100%;
+}
+
+
+::-webkit-scrollbar{ display:none; } 
+
+
+.header{
+    color:white;
+    float:right;
+    margin-right:25px;
+    margin-top:15px;
+}
+
+
+.header .fa-bars{
+    font-size:30px;
+    
+}
+
+.header .fa-xmark{
+    font-size:30px;
+}
+
+.header .fa-xmark{
+    display:none;
+}
+
+.sidebar{
+    height:100vh;
+    position:fixed;
+    width:10%;
+    background-color:#181818;
+}
+
+.name-alpha-div{
+    background-color: black;
+    text-align: center;
+}
+
+
+.name-alpha{
+    font-size: 120px;
+    font-weight: 800;
+    color:greenyellow;
+}
+
+.name-alpha:hover{
+    animation: size 1s 1 ease-in-out;
+}
+
+.navbar{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name-sec{
+   width:inherit;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   height:200px;
+   background-color:black;
+   flex-direction:column;
+}
+
+
+.first-alpha-nav{
+    font-size:120px;
+    color:greenyellow;
+    font-weight: 700;
+}
+
+.name-nav{
+    color:white;
+    margin-top:-50px;
+}
+
+.skills-sec-nav{
+    color:rgb(177, 174, 174);
+    width:inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#181818;
+}
+
+.navbar{
+    z-index:-1;
+    height:0px;
+    overflow:hidden;
+}
+
+.show-nav{
+    z-index: 1;
+    height:100%;
+    overflow: visible;
+}
+
+.skills-sec-nav{
+    margin-top: -57px;
+}
+.skills-sec-nav div{
+    border-bottom:1px solid rgb(51, 50, 50);
+    height:60px;
+   
+}
+
+.skills-sec-nav div p a{
+    text-decoration:none;
+    color:rgb(177, 174, 174);
+   
+}
+
+.skills-sec-nav div:hover{
+    color:greenyellow;
+   
+}
+
+
+
+.links-1{
+    word-spacing:10px;
+    height:200px;
+    width:100%;
+    background-color:#181818;
+    display:flex;
+    align-items: center;
+    margin-top:-75px;
+    justify-content:center;
+}
+
+.links-1 i{
+    margin-left:20px;
+}
+
+.links-1 a{
+    color:rgb(177, 174, 174);
+}
+
+
+@keyframes size{
+    from {
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.2);
+    }
+}
+
+#complete-name{
+    color:white;
+    font-size:25px;
+    font-weight:900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.options div{
+    color:rgb(177, 174, 174);
+    height:50px;
+    text-align: center;
+    border-bottom:1px solid rgb(51, 50, 50);
+}
+
+.options div:hover{
+    color:greenyellow;
+}
+
+.options a:hover{
+    color:greenyellow;
+}
+
+.options a{
+    text-decoration:none;
+    color:rgb(177, 174, 174);
+}
+
+
+.links{
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+.links a{
+    color:rgb(177, 174, 174);
+}
+
+.links i{
+    margin-left:9px;
+}
+
+
+.container-1{
+    color:white;
+    width:90vw;
+    height:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.arrow{
+    width:100%;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.arrow i{
+    font-size:30px;
+    animation: move 3s infinite ease-in-out;
+    color:white;
+}
+
+@keyframes move{
+    0%{
+        transform:translateY(10px);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform:translateY(10px);
+    }
+}
+
+
+.name{
+    font-family:fantasy;
+    font-size:100px;
+    /* border:2px solid red; */
+}
+
+
+.tagcloud {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    margin-left:25%;
+    margin-top:-6%;
+    color:greenyellow;
+    
+  }
+  .tagcloud--item:hover {
+    color:white;
+  }
+
+ 
+.skill-heading ,.skills-sec-heading{
+    color:yellowgreen;
+    font-size:250%;
+    font-weight:800;
+    padding-left:15%;
+    width:50%;
+    /* border:2px solid red; */
+
+    
+}
+
+.container-3{
+    display:flex;
+    flex:1;
+    color:white;
+    width:96%;  
+    height:80vh; 
+   
+}
+
+
+
+.skills{
+    padding-left:16%;
+    width:50%;
+    font-size:18px;
+}
+
+.sphere{
+    text-align:center;
+    width:55%;
+    padding-left:22%;
+    margin-top:-3%;
+    
+}
+
+
+.sphere1{
+    display:none;
+    padding-left:25%;
+}
+
+.container-2{
+    display:flex;
+    flex:1;
+    color:white;
+    width:96%;  
+    height:60vh; 
+    /* border:2px solid white; */
+    margin-left:15%;
+    margin-bottom:200px;
+}
+
+
+
+
+.skill-content{
+    /* border:2px solid blue; */
+    width:40%;
+    margin-right:3%;
+    font-size:18px;
+
+   
+}
+
+.skill-bar{
+    /* border:2px solid pink; */
+    width:60%;
+    /* border: 2px solid white; */
+    max-width: 60%;
+    height: 65%;
+    margin: 150px auto 0;
+}
+
+.bar {
+    color:white;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 7px;
+    width: 80%;
+    /* border:3px solid red; */
+  }
+
+
+  .bar span{
+    position: relative;
+    display: inline-block;
+    width:90%;
+    height:15px;
+    /* border:2px solid white;; */
+    background-color:black;
+    border-radius: 50px;
+  }
+  .bar span:before {
+    position: absolute;
+    content: "";
+   top:6px;
+   left:5px;
+   width:80%;
+   height:20%;
+    animation: bar 2s ease-in;
+    border-radius: 50px;
+  }
+
+  .bar1 span:before{
+    background-color:red;
+  }
+  .bar2 span:before{
+    background-color:blue;
+  }
+  .bar3 span:before{
+    background-color:green;
+  }
+  .bar4 span:before{
+    background-color:yellow;
+  }
+  .bar5 span:before{
+    background-color:purple;
+  }
+  .bar6 span:before{
+    background-color:orange;
+  }
+
+  @keyframes bar {
+    from {
+      width: 0;
+    }
+  }
+
+  .bar:nth-child(1) span:before{
+    width:90%;
+  }
+  .bar:nth-child(2) span:before{
+    width:70%;
+  }
+  .bar:nth-child(3) span:before{
+    width:60%;
+  }
+  .bar:nth-child(4) span:before{
+    width:90%;
+  }
+  .bar:nth-child(5) span:before{
+    width:60%;
+  }
+  .bar:nth-child(6) span:before{
+    width:60%;
+  }
+
+@media screen and (min-width:50px){
+    body-div{
+        width:100%;
+    }
+
+    body{
+        overflow:scroll;
+    }
+
+    .sphere,.skill-content{
+        display:flex;
+        justify-content:center;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:456px){
+    .sphere{
+        display: none;
+    }
+    .sphere1{
+        display:block;
+    }
+    .tagcloud{
+        font-size:10px;
+    }
+ 
+}
+
+
+@media screen and (max-width:588px) {
+    body-div{
+        width:100%;
+        
+    }
+    .name{
+       font-size:60px;
+       margin-left:25%;
+       width:80%;
+    }
+    .name-alpha{
+        font-size:110px;
+    }
+
+    .sphere{
+        display: none;
+        
+    }
+       .sphere1{
+        display:block;
+        }
+
+       .tagcloud{
+       
+        font-size:10px;
+      
+    }
+    
+}
+
+
+
+@media screen and (max-width:673px) {
+    body-div{
+        width:100%;
+        
+    }
+    .name{
+       font-size:60px;
+       width:70%;
+    }
+    .name-alpha{
+        font-size:90px;
+    }
+    
+
+}
+
+@media screen and (max-width:717px) {
+    .name{ 
+       margin-left:15%;
+    }
+}
+
+
+@media screen and (min-width:945px){
+
+    .body-div{
+       overflow-x:hidden;
+    }
+    
+    .sphere{
+       text-align:center;
+      
+    }   
+    .tagcloud{
+        margin-left:-20%;
+        
+    }
+
+    .fa-bars{
+        display:none;
+    }
+    
+    .sidebar{
+        display:block;
+    }  
+    
+    .skill-bar{
+        margin-top:2%;
+    }
+
+    .bar{
+        margin-bottom:5%;
+    }
+
+ 
+}
+
+@media screen and (max-width:944px) {
+    .name{
+       font-size:45px;
+       margin-left:12%;
+       color:white;
+       
+    }
+
+    .name-alpha{
+        font-size:100px;
+    }
+    body-div{
+        width:100%;
+      
+    } 
+    
+    .sidebar{
+        height:100vh;
+        position:fixed;
+    }
+    .skill-heading {
+        margin-left:-5%;
+    }
+
+    .skills-sec-heading{
+        /* border:2px solid red; */
+        width:100%;
+    }
+    .container-3 {
+        width:100%; 
+        display:flex;
+        flex-direction: column;
+        height:inherit;
+        margin-left:-5%;
+ 
+    }
+
+    .container-2{
+        width:100%; 
+        display:flex;
+        flex-direction: column;
+        height:inherit;
+        margin-left:-5%;
+        overflow-x: hidden;
+        margin-bottom:100px;
+    }
+
+    .project-sec{
+        width:80%;
+    }
+
+    .skills{
+        width:95%;
+        color:white;
+        height:50%;
+       
+    }
+
+    .sphere,.skill-content{
+      
+        width:90%;
+    }
+
+    .skills-sec-heading{
+        padding-left:12%;
+    }
+
+    .skill-content{
+        padding-left:17%; 
+
+    }
+    
+    .bar{
+        width:100%;
+    }
+
+    .tagcloud{
+        margin-left:2%;
+    }
+
+    .fa-bars{
+        display:block;
+    }
+    
+    .sidebar{
+        display:none;
+    }
+
+    
+    .location img{
+        width:100%;
+        height:100%;
+    }
+
+    .contact-sec{
+        width:100%;
+        height:50%;
+        /* border:2px solid red; */
+        margin-left:-5%;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .contact{
+        /* border:5px solid purple; */
+        width:100%;
+        height:200vh;
+    }
+
+    .location{
+        text-align:center;
+        width:50%;
+        height:80%;
+        /* border:2px solid yellow; */
+        margin-left:-5%;
+    }
+
+   
+   
+}
+
+
+.contact{
+    display:flex;
+    flex:1;
+    width:100%;
+    height:auto;
+    
+}
+
+.contact-heading{
+    width:100%;
+    font-size:250%;
+    font-weight: 800;
+    color:greenyellow;
+    margin-bottom:5%;
+}
+
+
+.contact-form{
+    padding-left:15%;
+    /* border:3px solid yellow; */
+    display:flex;
+    flex:1;
+}
+
+.contact-sec{
+    /* border:2px solid white; */
+    width:100%;
+   
+}
+
+.inputs div{
+    margin-bottom:10%;
+}
+
+.inputs div p{
+    padding-left:6%;
+}
+
+.inputs div a{
+    font-weight:800;
+}
+
+
+.call,.gmail,.address{
+    font-size:25px;
+    color:white;
+}
+
+.call i , .gmail i , .address i{
+    margin-right:20px;
+}
+
+.location{
+    width:100%;
+    height:100%;
+    /* border:2px solid red; */
+    padding:20px;
+}
+
+
+
+
